@@ -1,0 +1,27 @@
+.navbar-brand img {
+    max-height: 40px;
+}
+
+.navbar-light {
+    -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #071C4D;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+    font-weight: bold;
+    color: #071C4D !important;
+}
+
+.area-list-navbar {
+    height: 100px;
+}
+
+.scroll-list-area {
+    height: 100px;
+    overflow: scroll;
+    overflow-x: hidden;
+}

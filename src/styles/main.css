@@ -1,0 +1,137 @@
+@import "navbar.css";
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Assistant', sans-serif;
+    color: #ffffff;
+}
+
+footer {
+    color: #071C4D;
+    background-color: #ffffff;
+    max-height: 600px;
+}
+
+footer .container-fluid {
+    color: #071C4D;
+}
+
+.header-home {
+    padding: 180px 0 165px;
+    margin-top: -70px;
+    background-image: url("../images/hd_image_banner.png");
+    background-size: cover;
+}
+
+.header-home h1,
+.header-home p {
+    margin-left: 125px;
+    color: #ffffff;
+}
+
+.header-home h1 {
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.header-home p {
+    font-size: 22px;
+}
+
+.scroll-list-meal {
+    height: 500px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.section-details-content {
+    color: #071C4D;
+    margin-top: 10px;
+}
+
+.section-details-content .card-details {
+    padding: 30px;
+    border-radius: 11px;
+}
+
+.section-details-content .card-details h1 {
+    font-size: 26px;
+}
+
+.section-details-content .card-details h2 {
+    font-size: 20px;
+}
+
+.section-details-content .card-details p {
+    font-size: 18px;
+}
+
+.section-details-content .card-details h3 {
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.section-details-content .card-details .list-meal {
+    table-layout: fixed;
+    width: 100%;
+}
+
+.section-details-content .card-details .list-meal td {
+    font-weight: 300;
+    font-size: 18px;
+    color: #b1b1b1;
+}
+
+.section-details-content .card-details .list-meal td a:hover {
+    text-decoration: underline;
+}
+
+.section-details-content .card-details .list-meal .text-orange {
+    color: #ff9e53;
+    font-weight: bold;
+}
+
+.section-details-content .gallery .food-container {
+    display: block;
+}
+
+.section-details-content .gallery .food-container .food {
+    width: 100%;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    margin-bottom: 10px;
+}
+
+.section-details-content .video-meal {
+    color: #ff9e53;
+}
+
+.section-details-content .source-meal {
+    color: #ff9e53;
+}
+
+.section-footer a {
+    color: #071C4D;
+}
+
+@media only screen and (max-width: 850px) {
+    .scroll-list-meal {
+        height: 200px;
+    }
+    .header-home {
+        margin-top: 0px;
+    }
+    .header-home h1,
+    .header-home p {
+        margin-left: 25px;
+    }
+    .meal-article-style {
+        margin-top: 15px;
+    }
+}
